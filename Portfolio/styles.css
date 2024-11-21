@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Projects Page Styles */
+.projects-table {
+    display: table;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-spacing: 20px;
+}
+
+.project-row {
+    display: table-row;
+}
+
+.project-cell {
+    display: table-cell;
+    vertical-align: top;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.project-cell img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.project-cell h2 {
+    margin-top: 0;
+}
+
+.project-cell p {
+    margin: 0;
+}
+
+/* Resume Page Styles */
+.resume-section {
+    display: inline-block;
+    text-align: left;
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.resume-section p, .resume-section ul {
+    margin-bottom: 1em;
+}
+
+.resume-section ul {
+    padding-left: 1.5em;
+}
+
+.resume-section ul li {
+    list-style-type: disc;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
